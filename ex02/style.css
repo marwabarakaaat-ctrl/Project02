@@ -1,0 +1,34 @@
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #38a5d6;
+}
+
+.rectangle {
+    width: 180px;
+    height: 100px;
+    border: 4px solid #e85d75;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #e85d75;
+    border-radius: 50%;
+}
+
+.pill {
+    width: 180px;
+    height: 60px;
+    border: 4px solid #38a5d6;
+    border-radius: 999px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #e85d75;
+}

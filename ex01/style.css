@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    padding: 100px 20px 80px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fc;
+    color: #333;
+}
+
+/* Fixed navigation bar */
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #b9dff5;
+    z-index: 100;
+}
+
+.nav-container h1 {
+    margin: 0;
+    color: #164e83;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #164e83;
+    text-decoration: none;
+}
+
+/* Main content */
+main h2 {
+    color: #164e83;
+}
+
+/* Card container */
+.card-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual card */
+.card {
+    position: relative;
+    flex: 1 1 250px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    background-color: white;
+    border: 1px solid #d6e5f0;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #287bb5;
+}
+
+/* Absolute notification badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #e85d75;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+/* Fixed back-to-top button */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 200;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #287bb5;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 50%;
+}
